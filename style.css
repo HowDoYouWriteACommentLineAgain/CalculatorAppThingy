@@ -1,0 +1,89 @@
+html *{
+    font-family: "Courier New" !important;
+    font-weight:bolder;
+}
+
+h2{
+    margin: 0%;
+}
+
+hr{
+    border-radius: 12px;
+    border-style:dotted
+}
+
+.container{
+    max-width: 400px;
+    margin: 10vh auto 0 auto;
+    box-shadow: 0px 0px 43px 17px rgba(153, 153, 153, 1);
+}
+
+#titlebar{
+    font-size: 24pox;
+    padding: 8px 4px;
+    margin: 2 2px;
+    font-size: 25;
+    background-color: violet;
+}
+
+#display{
+    /* border: red solid; */
+    text-align: right;    
+    height: 70px;
+    line-height: 70px;
+    font-size: 24pox;
+    padding: 16px 4px;
+    margin: 0 4px;
+    font-size: 25;
+}
+
+.borderbox{
+    /* border: solid red 1px; */
+    padding: -2px 0px;
+    margin:-2% 12px ;
+    font-size: 2em;
+    text-align: center;
+    display: inline-block;
+}
+
+
+.buttons{
+    display: grid;
+    border-bottom: 1px solid #999;
+    border-left: 1px solid #999;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.buttons > div{
+    border-top: 1px solid #999;
+    border-right: 1px solid #999;
+}
+
+.button{
+    border: 0.5px solid #999;
+    line-height: 100px;
+    text-align:center;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+#equal{
+    color: white;
+    background-color: blue;
+}
+
+.button:hover{
+    background-color: #332330;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
+
+#history{
+    text-align: right;    
+    height: 40px;
+    line-height: 70px;
+    font-size: 12pox;
+    padding: 8px 2px;
+    margin: 0 4px;
+    font-size: 25;
+    color: black;
+}
